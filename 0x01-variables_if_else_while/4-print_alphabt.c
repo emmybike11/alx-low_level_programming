@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - Entry point
- *
- *
+ * @0 - Return value
+ * Return: Always 0
  *
  */
 int main(void)
