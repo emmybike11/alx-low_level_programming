@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
  * main - Starting point
- *
- * Return: 0 As usual
+ *@0 - Dumb
+ * Return: 1 As usual
  */
 int main(void)
 {
