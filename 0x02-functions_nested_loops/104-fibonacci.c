@@ -7,6 +7,7 @@
 int main(void)
 {
 	int counter, overflow;
+
 	unsigned long a = 1;
 	unsigned long b = 1;
 	unsigned long sum = 0;
