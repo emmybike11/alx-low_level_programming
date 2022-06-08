@@ -3,10 +3,11 @@
 /**
  * main -Entry Point
  * @c - print character
- * Return: 0
+ * Return: Always 0
+ *
  */
 int main(void)
 {
 	printf("_putchar\n");
-	return(0);
+	return (0);
 }
