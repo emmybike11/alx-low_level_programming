@@ -8,16 +8,13 @@
  * Return : 0 Always
  *
  */
-int (void)
+void print_alphabet(void)
 {
-	char ch[] = "_putchar";
+	char c;
 
-	int i;
-
-	for (i = 0; i < 8; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(ch[i]);
+		_putchar(c);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
