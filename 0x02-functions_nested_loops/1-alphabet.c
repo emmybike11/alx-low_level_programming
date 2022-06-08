@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point where the program starts execution
- *
- * @ a program that prints putchar followed by a new line
- *
- * Return : 0 Always
- *
+ * print_alphabet - make the alphabet
+ * return: void
  */
 void print_alphabet(void)
 {
