@@ -1,20 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point where the program starts execution
+ * main - Entry Point
  *
- * @ a program that prints putchar followed by a new line
  *
- * Return : 0 Always
- *
+ * Return: 0 always
  */
-void print_alphabet(void)
+int main(void)
 {
-	char c;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
+	return (0);
 }
