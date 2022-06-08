@@ -1,19 +1,3 @@
-#include "main.h"
-/**
-  * print_alphabet - Make the alphabet
-  *
-  * Return: void
-  */
-void print_alphabet(void)
-{
-        char c;
-        for (c = 'a'; c <= 'z'; c++)
-        {
-                _putchar(c);
-        }
-        _putchar('\n');
-}
-[9:38 AM] root@128e8d45303c:/alx-low_level_programming/0x02-functions_nested_loops# cat 104-fibonacci.c
 #include <stdio.h>
 /**
  * main - print first 98 Fibonacci numbers without using long long, malloc,
