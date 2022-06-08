@@ -5,19 +5,27 @@
  */
 void print_alphabet(void)
 {
-	int printtimes = 0;
-
-	char alphy;
-
-	while (printtimes < 10)
+	char j = 'a';
+	
+	while (j <= 'z')
 	{
-		alphy = 'a';
-		while (alphy <= 'z')
-		{
-			_putchar(alphy);
-			alphy++;
-		}
-		_putchar('\n');
-		printtimes++;
+		_putchar(j);
+		j++;
+	}					}
+	_putchar('\n');
+}
+/**
+ * print_alphabet_x10 - function to print all alphabets ten times
+ * Return: Success
+ *
+ */
+void print_alphabet_x10(void)
+{
+	int i = 0;
+	
+	while (i < 10)
+	{
+		print_alphabet();
+		i++;
 	}
 }
