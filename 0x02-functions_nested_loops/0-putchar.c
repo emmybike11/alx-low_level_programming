@@ -5,10 +5,10 @@
  *
  * @ a program that prints putchar followed by a new line
  *
- * Return : 0 Always (Sucess)
+ * Return : 0 Always
  *
  */
-int main(void)
+int (void)
 {
 	char ch[] = "_putchar";
 
