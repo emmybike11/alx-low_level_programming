@@ -1,14 +1,22 @@
 #include "main.h"
-
 /**
- * main -Entry Point
- * @c - print character
- * Return: Always 0
+ * main- Entry point 
+ *
+ * @ a program that prints putchar followed by a new line
+ *
+ * Return : 0 Always (Sucess)
  *
  */
-
 int main(void)
 {
-	printf("_putchar\n");
+	char ch[] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(ch[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
